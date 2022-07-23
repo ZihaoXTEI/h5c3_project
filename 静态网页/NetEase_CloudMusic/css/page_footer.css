@@ -1,0 +1,101 @@
+footer {
+	background: rgb(242, 242, 242);
+	border-top: 1px solid rgb(211, 211, 211);
+}
+
+.footer {
+	display: flex;
+	height: 172px;
+	line-height: 24px;
+}
+
+.footer .copyright {
+	width: 550px;
+	padding-top: 15px;
+	color: #999;
+}
+
+.footer .copyright .link .item {
+	color: #999;
+}
+
+.footer .copyright .link .item:hover {
+	text-decoration: underline;
+}
+
+.footer .copyright .link .line {
+	margin: 0 2px 0 4px;
+}
+
+.footer .copyright .right {
+	color: #666;
+}
+
+.footer .copyright .right .right-link {
+	color: #666;
+}
+
+.footer .copyright .right .right-link:hover {
+	text-decoration: underline;
+}
+
+.footer .copyright .right span:first-of-type {
+	margin-right: 14px;
+}
+
+.footer .entrance {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 33px;
+}
+
+.footer .entrance .unit {
+	width: 60px;
+	height: 70px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.footer .entrance .unit .logo {
+	display: block;
+	width: 50px;
+	height: 45px;
+	margin: 0 5px;
+	background: url(../img/foot_enter_sprite.png) no-repeat;
+	background-size: 110px 552px;
+}
+
+.footer .entrance .unit .title {
+	display: block;
+	font-size: 12px;
+	height: 12px;
+	color: #999;
+	text-align: center;
+	white-space: nowrap;
+	transform: scale(0.9);
+}
+
+.footer .entrance .unit:first-child .title {
+	transform: translateX(-20%);
+}
+
+.footer .entrance .unit .logo-amped {
+	background-position: -63px -456.5px;
+}
+
+.footer .entrance .unit .logo-auth {
+	background-position: -63px -101px;
+}
+
+.footer .entrance .unit .logo-musician {
+	background-position: 0 0;
+}
+
+.footer .entrance .unit .logo-reward {
+	background-position: -60px -50px;
+}
+
+.footer .entrance .unit .logo-cash {
+	background-position: 0 -101px;
+}

@@ -6,12 +6,6 @@
 	background-image: url(../img/main_bg.png);
 }
 
-/* 左侧栏 */
-.main .area-left {
-	width: 729px;
-	padding: 20px 20px 40px;
-}
-
 /* 右侧栏 */
 .main .area-right {
 	width: 250px;
@@ -81,6 +75,10 @@
 	font-size: 14px;
 	font-weight: 700;
 	color: #000;
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .main .settle-singer .item .info .desc {
@@ -144,6 +142,9 @@
 
 .main .hot-anchor .item .info .anchor {
 	height: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .main .hot-anchor .item .info .anchor:hover {
